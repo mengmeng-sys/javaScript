@@ -1,0 +1,66 @@
+## OBJECT
+console.log("hello wellcome to meng seang page");
+let seang={eye:"brown",hair:"black",
+           look : function(){
+                console.log("Don't look at me !");
+           },
+           learn : function(){
+                console.log("i learned javascript");
+           }
+};
+console.log("my eye is",seang.eye);// call element
+seang.learn();// call function
+
+
+
+
+## array
+// An array of fruits
+let fruits = ["Apple", "Banana", "Cherry"];
+// Access the first item (index 0)
+console.log(fruits[0]); // Outputs: "Apple"
+// Find the number of items
+console.log(fruits.length); // Outputs: 3
+// Add a new item to the end
+fruits.push("Mango");
+console.log(fruits); // Outputs: ["Apple", "Banana", "Cherry", "Mango"]
+
+## condition
+let time = 14; // This is 2 PM
+if (time < 12) {
+  console.log("Good morning!");
+} else if (time < 18) {
+  console.log("Good afternoon!"); // This code will run
+} else {
+  console.log("Good evening!");
+}
+
+## looping
+for(let i= 0 ; i<100 ; i++){
+console.log("Sorry beb", i+1);
+}// for loop
+
+
+let love=0;
+while(love<12){
+ console.log(love);
+ love++;
+}// while loop 
+
+## exercise 
+// the greeting card 
+const name="meng";
+const greeting="hello,";
+console.log(greeting,name);
+
+// Calculate age
+const age=2006;
+let current=2025;
+let result=current-age;
+console.log(result);
+
+// my favourite foods
+let foods=["kuy teav","amok","cha knhei"];
+for(let i = 0 ; i<foods.length ; i++){
+ console.log("I want to eat",foods[i]);
+}
